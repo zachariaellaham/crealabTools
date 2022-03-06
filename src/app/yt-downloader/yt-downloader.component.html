@@ -1,0 +1,8 @@
+<h1 id="title">Crealab Youtube downloader</h1>
+<div class="center-screen">
+<input #videoInput class="linkInput" type="url" matInput>
+<button class="downloadButton"  (click)="downloadVideo()" mat-raised-button>Download</button>
+  <div id="mp3Option">
+  <input #mp3CheckBox type="checkbox" name="mp3Checkbox" (change)="toogleMp3()"><label>MP3 Seulement</label>
+  </div>
+</div>

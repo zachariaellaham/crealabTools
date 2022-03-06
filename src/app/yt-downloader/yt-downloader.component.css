@@ -1,0 +1,32 @@
+
+#title{
+  margin: auto;
+  text-align: center;
+}
+
+.linkInput {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.downloadButton {
+  background-color: cornflowerblue;
+  margin-left: 1%;
+  color: whitesmoke;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.center-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
